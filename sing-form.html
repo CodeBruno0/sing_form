@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Form</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body background="./images/bg-intro-desktop.png">
+    <h1>
+        Learn to code by watching others
+    </h1>
+
+    <p>See how experienced developers solve problems in real-time.
+        Watching scripted tutorials is great, but understand how developers think is invaluable.
+    </p>
+
+    <h3>Try it free 7 days then $20/mo. therafter</h3>
+
+    <form method="get" action="Forms">
+        <div class="wrapper">
+
+            <div><label for="Fname"></label>
+                <input type="text" id="Fname" placeholder="First Name" required=" " text="Escreva"><br>
+            </div>
+            <div>
+                <label for="Lname"></label>
+                <input type="text" name="Lname" id="Lname" placeholder="Last Name" required=" "><br>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email Address" required=" "><br>
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Password" required=" " pattern="^\d{3}-\d{2}-\d{4}$"
+                    title="Digite uma senha válida"><br>
+
+            </div>
+            <a class="trial" href="#">CLAIN YOUR FREE TRIAL</a>
+
+            <p class="termS">By clicking the button, you are agreeging to our <a class="terms" href="#">Terms and
+                    Services</a></p>
+
+        </div>
+    </form>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
